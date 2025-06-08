@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naija Whot Card Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2>Naija Whot Card Game</h2>
+
+  <div id="pile-area">
+    <strong>Pile:</strong>
+    <div id="pile">Empty</div>
+  </div>
+
+  <div id="player-area">
+    <strong>Your Hand:</strong>
+    <div id="player-hand" class="hand-cards"></div>
+  </div>
+
+  <div id="computer-area">
+    Computer has <span id="computer-count"></span> cards
+  </div>
+
+  <!-- Added deck count display here -->
+  <div id="deck-area">
+    Deck has <span id="deck-count"></span> cards left
+  </div>
+
+  <button id="draw-btn">Draw Card</button>
+
+  <div id="status"></div>
+
+  <button id="restart-btn">Restart Game</button>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
